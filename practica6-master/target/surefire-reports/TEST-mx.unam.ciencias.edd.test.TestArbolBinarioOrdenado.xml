@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.052" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica6-master\target\test-classes;E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica6-master\target\classes;C:\Users\ADLG\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ADLG\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADLG\AppData\Local\Temp\surefire17920604367247689978\surefirebooter-20231229193451984_3.jar C:\Users\ADLG\AppData\Local\Temp\surefire17920604367247689978 2023-12-29T19-34-51_802-jvmRun1 surefire-20231229193451984_1tmp surefire_0-20231229193451984_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica6-master\target\test-classes;E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica6-master\target\classes;C:\Users\ADLG\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ADLG\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADLG"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica6-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADLG\AppData\Local\Temp\surefire17920604367247689978\surefirebooter-20231229193451984_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="ADLG"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ADLG\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADLG\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica6-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\ProgramData\chocolatey\bin;E:\Descargas\Universidad\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;E:\Descargas\Universidad\C\bin;E:\Descargas\AUniversidadA\Maven\apache-maven-3.9.4\bin;C:\Users\ADLG\AppData\Roaming\Racket\8.8\;E:\Descargas\Universidad\Racket\;C:\Users\ADLG\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\ADLG\AppData\Local\Programs\Python\Python39-32\;C:\Users\ADLG\AppData\Local\Programs\Python\Launcher\;C:\Users\ADLG\AppData\Local\Microsoft\WindowsApps;C:\Users\ADLG\AppData\Local\GitHubDesktop\bin;C:\Users\ADLG\AppData\Roaming\cabal\bin;C:\tools\ghc-9.4.2\bin;E:\Descargas\Universidad\Visual Studio Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testElimina" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testEsVacio" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testIteradorHasNext" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testDfsPreOrder" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testBusca" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testVerticeAltura" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.002"/>
+  <testcase name="testRaiz" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testToString" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.011"/>
+  <testcase name="testVerticeEquals" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testVerticeToString" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testDfsInOrder" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.002"/>
+  <testcase name="testVerticeGet" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testVerticeIzquierdo" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testGetUltimoVerticeAgregado" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testVerticeProfundidad" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.002"/>
+  <testcase name="testContiene" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.004"/>
+  <testcase name="testIteradorNext" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testVerticeDerecho" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testGiraDerecha" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testGetElementos" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testDfsPostOrder" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.002"/>
+  <testcase name="testVerticePadre" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testAgrega" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testAltura" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testVerticeHayDerecho" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testEquals" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testVerticeHayPadre" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testLimpia" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testGiraIzquierda" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testVerticeHayIzquierdo" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.0"/>
+  <testcase name="testIterator" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testConstructorColeccion" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+  <testcase name="testConstructor" classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.001"/>
+</testsuite>

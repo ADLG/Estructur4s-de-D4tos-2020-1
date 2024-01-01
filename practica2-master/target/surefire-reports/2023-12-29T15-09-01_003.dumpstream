@@ -1,0 +1,5 @@
+# Created at 2023-12-29T15:09:01.188
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Descargas\AUniversidadA\Git CV\Estructuras de Datos 2020-1\practica2-master\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
